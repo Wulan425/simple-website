@@ -1,0 +1,101 @@
+body {
+    background: url("image/11.jpg");
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Helvetica';
+}
+.head{
+    background: url("image/gunung.jpg");
+    padding: 10px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid transparent;
+}
+.footer{
+    padding: 10px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+
+h4 {
+    font-size: 0.75em;
+    font-weight: 1000;
+    color: rgb(252, 252, 252);
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+h4:hover{
+    color:rgb(15, 16, 24);
+    text-shadow: 0 0 5px #157bb6,
+    0 0 25px #157bb6,
+    0 0 55px #157bb6,
+    0 0 95px #157bb6
+}
+.card{
+    height: auto;
+    width: auto;
+    background: -webkit-linear-gradient(80deg, lightblue, rgb(46, 121, 151));
+    color:rgb(22, 7, 7);
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.text{
+    margin-top: auto;
+    transition: 2s ease;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.card:hover .text{
+    transform:translateY(-5px);
+    opacity: 5;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+      background-color: rgb(77, 31, 31);
+}
+
+.showcase{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.showcase video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    height: 100%;
+    background: url("image/11.jpg") ;
+    font-size: 100px;
+    color:rgb(97, 105, 25);
+    mix-blend-mode: multiply;
+}
